@@ -1,0 +1,28 @@
+# Virtual environment for Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js for React (frontend/reactapp)
+frontend/reactapp/node_modules/
+frontend/reactapp/.pnp/
+frontend/reactapp/.pnp.js
+
+# Testing files for React (frontend/reactapp)
+frontend/reactapp/coverage/
+
+# Production files for React (frontend/reactapp)
+frontend/reactapp/build/
+
+# Misc files for React (frontend/reactapp)
+frontend/reactapp/.DS_Store
+frontend/reactapp/.env.local
+frontend/reactapp/.env.development.local
+frontend/reactapp/.env.test.local
+frontend/reactapp/.env.production.local
+
+# Log files for React (frontend/reactapp)
+frontend/reactapp/npm-debug.log*
+frontend/reactapp/yarn-debug.log*
+frontend/reactapp/yarn-error.log*
